@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "ProductCreatedEvent",
+  "namespace": "com.semihtumay.cqrspattern.application.event",
+  "fields": [
+    {"name": "id", "type": "string"},
+    {"name": "name", "type": "string"},
+    {"name": "price", "type": "string"},
+    {"name": "stock", "type": "int"}
+  ]
+}

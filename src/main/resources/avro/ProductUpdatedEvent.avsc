@@ -1,0 +1,11 @@
+{
+  "type": "record",
+  "name": "ProductUpdatedEvent",
+  "namespace": "com.semihtumay.cqrspattern.application.event",
+  "fields": [
+    { "name": "id", "type": "string" },
+    { "name": "name", "type": ["null", "string"], "default": null },
+    { "name": "price", "type": ["null", "string"], "default": null },
+    { "name": "stock", "type": ["null", "int"], "default": null }
+  ]
+}
